@@ -1,0 +1,83 @@
+main {
+  section {
+    .container {
+      padding-right: 100px;
+
+      .flex {
+        @include flex;
+        align-items: center;
+
+        #leftHero {
+          background-color: $black;
+          clip-path: polygon(0 0, 91% 0, 100% 100%, 0 100%);
+          width: 50%;
+          .flex {
+            @include flex;
+            #heroIcons {
+              ul {
+                display: flex;
+                flex-direction: column;
+                gap: 23px;
+                border: 1px solid $lightRed;
+                background-color: $black;
+                border-radius: 25px;
+                padding: 15px 10px;
+                margin-left: 45px;
+              }
+            }
+          }
+        }
+
+        #rightHero {
+          position: absolute;
+          right: 0;
+          #heroContent {
+            margin: 0 auto;
+            width: 50%;
+            h1 {
+              letter-spacing: 5px;
+              line-height: 45px;
+              font-size: 35px;
+              font-weight: 700;
+
+              span {
+                display: block;
+                font-size: 30px;
+                font-weight: 500;
+                color: $lightRed;
+              }
+            }
+
+            h3 {
+              font-size: 15px;
+              font-weight: 500;
+              margin-bottom: 20px;
+              margin-top: 10px;
+            }
+
+            p {
+              line-height: 23px;
+            }
+
+            button {
+              cursor: pointer;
+              background-color: $black;
+              color: $darkRed;
+              padding: 7px 13px;
+              font-size: 18px;
+              font-weight: 700;
+              border: none;
+              border-radius: 10px;
+              margin-top: 51px;
+              transition: 0.3s ease-in-out;
+
+              &:hover {
+                transform: scale(0.9);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

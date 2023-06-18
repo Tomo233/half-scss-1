@@ -1,0 +1,13 @@
+@import "base/mixin";
+@import "base/vars";
+@import "components/header";
+@import "components/heroSection";
+@import "components/secondSection";
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+// body {
+//   background-color: $black;
+// }

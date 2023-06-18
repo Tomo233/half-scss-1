@@ -1,0 +1,343 @@
+header {
+  background-color: #050709;
+  padding: 15px 0px;
+}
+header .container #logo {
+  display: inline-block;
+  width: 50%;
+  margin-top: 0px;
+  padding: 10px;
+  padding-left: 45px;
+}
+header .container nav {
+  display: inline-block;
+}
+header .container nav ul {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 15px;
+}
+header .container nav ul #home {
+  margin-left: 50px;
+}
+header .container nav ul li {
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fefefe;
+}
+header .container nav ul li:hover::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  top: 15px;
+  background-color: #050709;
+}
+
+main section .container {
+  padding-right: 100px;
+}
+main section .container .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main section .container .flex #leftHero {
+  background-color: #050709;
+  -webkit-clip-path: polygon(0 0, 91% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 91% 0, 100% 100%, 0 100%);
+  width: 50%;
+}
+main section .container .flex #leftHero .flex {
+  display: flex;
+  justify-content: space-between;
+}
+main section .container .flex #leftHero .flex #heroIcons ul {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  border: 1px solid #fe0100;
+  background-color: #050709;
+  border-radius: 25px;
+  padding: 15px 10px;
+  margin-left: 45px;
+}
+main section .container .flex #rightHero {
+  position: absolute;
+  right: 0;
+}
+main section .container .flex #rightHero #heroContent {
+  margin: 0 auto;
+  width: 50%;
+}
+main section .container .flex #rightHero #heroContent h1 {
+  letter-spacing: 5px;
+  line-height: 45px;
+  font-size: 35px;
+  font-weight: 700;
+}
+main section .container .flex #rightHero #heroContent h1 span {
+  display: block;
+  font-size: 30px;
+  font-weight: 500;
+  color: #fe0100;
+}
+main section .container .flex #rightHero #heroContent h3 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+main section .container .flex #rightHero #heroContent p {
+  line-height: 23px;
+}
+main section .container .flex #rightHero #heroContent button {
+  cursor: pointer;
+  background-color: #050709;
+  color: #ff0000;
+  padding: 7px 13px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  margin-top: 51px;
+  transition: 0.3s ease-in-out;
+}
+main section .container .flex #rightHero #heroContent button:hover {
+  transform: scale(0.9);
+}
+
+main #secondSection {
+  padding-top: 120px;
+  background-color: #050709;
+  color: #fefefe;
+}
+main #secondSection h1 {
+  padding: 100px 0px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+main #secondSection .container {
+  width: 87%;
+  margin: 0 auto;
+}
+main #secondSection .container .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+main #secondSection .container .grid #box1 {
+  border-radius: 20px;
+  width: 348px;
+  height: 350px;
+  background-color: #fefefe;
+  color: #050709;
+  margin: 24px;
+  background-color: #ff0000;
+  color: #fefefe;
+}
+main #secondSection .container .grid #box1 .img {
+  background-color: #050709;
+  width: 71px;
+  height: 63px;
+  border-radius: 15px 15px 0px 15px;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: #fefefe;
+}
+main #secondSection .container .grid #box1 .img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main #secondSection .container .grid #box1 .content h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 36px 0px 30px 32px;
+}
+main #secondSection .container .grid #box1 .content p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 32px;
+  color: #282828;
+  color: #fefefe;
+}
+main #secondSection .container .grid #box2 {
+  border-radius: 20px;
+  width: 348px;
+  height: 350px;
+  background-color: #fefefe;
+  color: #050709;
+  margin: 24px;
+}
+main #secondSection .container .grid #box2 .img {
+  background-color: #050709;
+  width: 71px;
+  height: 63px;
+  border-radius: 15px 15px 0px 15px;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+main #secondSection .container .grid #box2 .img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main #secondSection .container .grid #box2 .content h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 36px 0px 30px 32px;
+}
+main #secondSection .container .grid #box2 .content p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 32px;
+  color: #282828;
+}
+main #secondSection .container .grid #box3 {
+  border-radius: 20px;
+  width: 348px;
+  height: 350px;
+  background-color: #fefefe;
+  color: #050709;
+  margin: 24px;
+}
+main #secondSection .container .grid #box3 .img {
+  background-color: #050709;
+  width: 71px;
+  height: 63px;
+  border-radius: 15px 15px 0px 15px;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+main #secondSection .container .grid #box3 .img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main #secondSection .container .grid #box3 .content h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 36px 0px 30px 32px;
+}
+main #secondSection .container .grid #box3 .content p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 32px;
+  color: #282828;
+}
+main #secondSection .container .grid #box4 {
+  border-radius: 20px;
+  width: 348px;
+  height: 350px;
+  background-color: #fefefe;
+  color: #050709;
+  margin: 24px;
+}
+main #secondSection .container .grid #box4 .img {
+  background-color: #050709;
+  width: 71px;
+  height: 63px;
+  border-radius: 15px 15px 0px 15px;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+main #secondSection .container .grid #box4 .img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main #secondSection .container .grid #box4 .content h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 36px 0px 30px 32px;
+}
+main #secondSection .container .grid #box4 .content p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 32px;
+  color: #282828;
+}
+main #secondSection .container .grid #box5 {
+  border-radius: 20px;
+  width: 348px;
+  height: 350px;
+  background-color: #fefefe;
+  color: #050709;
+  margin: 24px;
+}
+main #secondSection .container .grid #box5 .img {
+  background-color: #050709;
+  width: 71px;
+  height: 63px;
+  border-radius: 15px 15px 0px 15px;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+main #secondSection .container .grid #box5 .img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main #secondSection .container .grid #box5 .content h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 36px 0px 30px 32px;
+}
+main #secondSection .container .grid #box5 .content p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 32px;
+  color: #282828;
+}
+main #secondSection .container .grid #box6 {
+  border-radius: 20px;
+  width: 348px;
+  height: 350px;
+  background-color: #fefefe;
+  color: #050709;
+  margin: 24px;
+}
+main #secondSection .container .grid #box6 .img {
+  background-color: #050709;
+  width: 71px;
+  height: 63px;
+  border-radius: 15px 15px 0px 15px;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+main #secondSection .container .grid #box6 .img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main #secondSection .container .grid #box6 .content h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 36px 0px 30px 32px;
+}
+main #secondSection .container .grid #box6 .content p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 32px;
+  color: #282828;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}/*# sourceMappingURL=main.css.map */

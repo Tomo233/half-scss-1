@@ -1,0 +1,126 @@
+main {
+  #secondSection {
+    padding-top: 120px;
+    background-color: $black;
+    color: $white;
+    h1 {
+      padding: 100px 0px;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 700;
+    }
+    .container {
+      @include container;
+      .grid {
+        @include grid;
+
+        #box1 {
+          @include box;
+          background-color: $darkRed;
+          color: $white;
+          .img {
+            @include imgDiv;
+            background-color: $white;
+            img {
+              @include img;
+            }
+          }
+          .content {
+            h3 {
+              @include text;
+            }
+            p {
+              @include p;
+              color: $white;
+            }
+          }
+        }
+        #box2 {
+          @include box;
+          .img {
+            @include imgDiv;
+            img {
+              @include img;
+            }
+          }
+          .content {
+            h3 {
+              @include text;
+            }
+            p {
+              @include p;
+            }
+          }
+        }
+        #box3 {
+          @include box;
+          .img {
+            @include imgDiv;
+            img {
+              @include img;
+            }
+          }
+          .content {
+            h3 {
+              @include text;
+            }
+            p {
+              @include p;
+            }
+          }
+        }
+        #box4 {
+          @include box;
+          .img {
+            @include imgDiv;
+            img {
+              @include img;
+            }
+          }
+          .content {
+            h3 {
+              @include text;
+            }
+            p {
+              @include p;
+            }
+          }
+        }
+        #box5 {
+          @include box;
+          .img {
+            @include imgDiv;
+            img {
+              @include img;
+            }
+          }
+          .content {
+            h3 {
+              @include text;
+            }
+            p {
+              @include p;
+            }
+          }
+        }
+        #box6 {
+          @include box;
+          .img {
+            @include imgDiv;
+            img {
+              @include img;
+            }
+          }
+          .content {
+            h3 {
+              @include text;
+            }
+            p {
+              @include p;
+            }
+          }
+        }
+      }
+    }
+  }
+}

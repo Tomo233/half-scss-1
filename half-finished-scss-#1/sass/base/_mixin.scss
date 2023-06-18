@@ -1,0 +1,50 @@
+@mixin container {
+  width: 87%;
+  margin: 0 auto;
+}
+
+@mixin flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@mixin box {
+  border-radius: 20px;
+  width: 348px;
+  height: 350px;
+  background-color: $white;
+  color: $black;
+  margin: 24px;
+}
+
+@mixin imgDiv {
+  background-color: $black;
+  width: 71px;
+  height: 63px;
+  border-radius: 15px 15px 0px 15px;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+@mixin img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@mixin text {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 36px 0px 30px 32px;
+}
+@mixin p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 32px;
+  color: $lightBlack;
+}

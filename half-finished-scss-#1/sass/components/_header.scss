@@ -1,0 +1,43 @@
+header {
+  background-color: $black;
+  padding: 15px 0px;
+  .container {
+    #logo {
+      display: inline-block;
+      width: 50%;
+      margin-top: 0px;
+      padding: 10px;
+      padding-left: 45px;
+    }
+
+    nav {
+      display: inline-block;
+
+      ul {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        margin-top: 15px;
+        #home {
+          margin-left: 50px;
+        }
+        li {
+          font-size: 20px;
+          font-weight: 600;
+          cursor: pointer;
+          color: $white;
+          &:hover::before {
+            content: "";
+            position: absolute;
+            width: 50px;
+            height: 2px;
+            top: 15px;
+            background-color: $black;
+            // !  transition: 0.5s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}
